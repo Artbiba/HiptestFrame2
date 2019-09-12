@@ -1,110 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-09-12T14:37:46Z" name="Surefire suite" finished-at="2019-09-12T14:38:13Z" duration-ms="27260">
+  <suite started-at="2019-09-12T15:55:35Z" name="Surefire suite" finished-at="2019-09-12T15:55:35Z" duration-ms="345">
     <groups>
     </groups>
-    <test started-at="2019-09-12T14:37:46Z" name="Surefire test" finished-at="2019-09-12T14:38:13Z" duration-ms="27260">
-      <class name="TestClass">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestClass@6a74d228]" started-at="2019-09-12T14:38:05Z" name="setUp" finished-at="2019-09-12T14:38:09Z" duration-ms="3285" status="PASS">
+    <test started-at="2019-09-12T15:55:35Z" name="Surefire test" finished-at="2019-09-12T15:55:35Z" duration-ms="345">
+      <class name="SeleniumTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTest@6cc0bcf6]" started-at="2019-09-12T15:55:35Z" name="setUp" finished-at="2019-09-12T15:55:35Z" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test()[pri:0, instance:TestClass@6a74d228]" started-at="2019-09-12T14:38:09Z" name="test" finished-at="2019-09-12T14:38:12Z" duration-ms="3650" status="PASS">
+        <test-method signature="findingASiteOnGoogleUid04058d8a519848d9a423df387c4bd368()[pri:0, instance:SeleniumTest@6cc0bcf6]" started-at="2019-09-12T15:55:35Z" name="findingASiteOnGoogleUid04058d8a519848d9a423df387c4bd368" finished-at="2019-09-12T15:55:35Z" duration-ms="99" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:TestClass@6a74d228]" started-at="2019-09-12T14:38:12Z" name="after" finished-at="2019-09-12T14:38:13Z" duration-ms="846" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=test status=SUCCESS method=TestClass.test()[pri:0, instance:TestClass@6a74d228] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- TestClass -->
-      <class name="hiptest.SeleniumTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:37:46Z" name="setUp" finished-at="2019-09-12T14:37:51Z" duration-ms="4685" status="PASS">
+        </test-method> <!-- findingASiteOnGoogleUid04058d8a519848d9a423df387c4bd368 -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTest@6cc0bcf6]" started-at="2019-09-12T15:55:35Z" name="setUp" finished-at="2019-09-12T15:55:35Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="findingASiteOnGoogle()[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:37:51Z" name="findingASiteOnGoogle" finished-at="2019-09-12T14:37:52Z" duration-ms="1749" status="PASS">
+        <test-method signature="loginToAccountWithValidValuesUid5585c7a8d44c48a289b88774b5f34269()[pri:0, instance:SeleniumTest@6cc0bcf6]" started-at="2019-09-12T15:55:35Z" name="loginToAccountWithValidValuesUid5585c7a8d44c48a289b88774b5f34269" finished-at="2019-09-12T15:55:35Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- findingASiteOnGoogle -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:37:53Z" name="after" finished-at="2019-09-12T14:37:53Z" duration-ms="829" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=findingASiteOnGoogle status=SUCCESS method=SeleniumTest.findingASiteOnGoogle()[pri:0, instance:hiptest.SeleniumTest@36bc415e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:37:53Z" name="setUp" finished-at="2019-09-12T14:37:57Z" duration-ms="3393" status="PASS">
+        </test-method> <!-- loginToAccountWithValidValuesUid5585c7a8d44c48a289b88774b5f34269 -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTest@6cc0bcf6]" started-at="2019-09-12T15:55:35Z" name="setUp" finished-at="2019-09-12T15:55:35Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginToAccountWithValidValues()[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:37:57Z" name="loginToAccountWithValidValues" finished-at="2019-09-12T14:37:57Z" duration-ms="2" status="PASS">
+        <test-method signature="new2Uid6009eb5bc9c14e6a8029ff79a0ff2532()[pri:0, instance:SeleniumTest@6cc0bcf6]" started-at="2019-09-12T15:55:35Z" name="new2Uid6009eb5bc9c14e6a8029ff79a0ff2532" finished-at="2019-09-12T15:55:35Z" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginToAccountWithValidValues -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:37:57Z" name="after" finished-at="2019-09-12T14:37:57Z" duration-ms="611" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=loginToAccountWithValidValues status=SUCCESS method=SeleniumTest.loginToAccountWithValidValues()[pri:0, instance:hiptest.SeleniumTest@36bc415e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:37:57Z" name="setUp" finished-at="2019-09-12T14:38:01Z" duration-ms="3298" status="PASS">
+        </test-method> <!-- new2Uid6009eb5bc9c14e6a8029ff79a0ff2532 -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTest@6cc0bcf6]" started-at="2019-09-12T15:55:35Z" name="setUp" finished-at="2019-09-12T15:55:35Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="new2()[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:38:01Z" name="new2" finished-at="2019-09-12T14:38:01Z" duration-ms="5" status="PASS">
+        <test-method signature="newScenarioUide04443b80bf8487e93201538a1d3c199()[pri:0, instance:SeleniumTest@6cc0bcf6]" started-at="2019-09-12T15:55:35Z" name="newScenarioUide04443b80bf8487e93201538a1d3c199" finished-at="2019-09-12T15:55:35Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- new2 -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:38:01Z" name="after" finished-at="2019-09-12T14:38:01Z" duration-ms="603" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=new2 status=SUCCESS method=SeleniumTest.new2()[pri:0, instance:hiptest.SeleniumTest@36bc415e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:38:01Z" name="setUp" finished-at="2019-09-12T14:38:05Z" duration-ms="3331" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="newScenario()[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:38:05Z" name="newScenario" finished-at="2019-09-12T14:38:05Z" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- newScenario -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:38:05Z" name="after" finished-at="2019-09-12T14:38:05Z" duration-ms="677" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=newScenario status=SUCCESS method=SeleniumTest.newScenario()[pri:0, instance:hiptest.SeleniumTest@36bc415e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- hiptest.SeleniumTest -->
+        </test-method> <!-- newScenarioUide04443b80bf8487e93201538a1d3c199 -->
+      </class> <!-- SeleniumTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

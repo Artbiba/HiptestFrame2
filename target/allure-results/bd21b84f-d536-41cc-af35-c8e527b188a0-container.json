@@ -1,0 +1,1 @@
+{"uuid":"bd21b84f-d536-41cc-af35-c8e527b188a0","name":"SeleniumTest.setUp","children":["9a4378d6-a9f7-47c5-93f5-8e0d458ea9d6"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1568303735480,"stop":1568303735480}],"afters":[],"links":[],"start":1568303735480,"stop":1568303735480}

@@ -1,12 +1,1 @@
-TestsInfo\Notifications.class
-Core\BaseClass$1.class
-TestsInfo\Urls.class
-Utilities\Asserts.class
-Utilities\Actions.class
-Utilities\Actionwords$1.class
-Utilities\Asserts$1.class
-Core\BaseClass.class
-Utilities\Asserts$2.class
-Core\BaseTest.class
-TestsInfo\Data.class
-Utilities\Actionwords.class
+Actionwords.class
