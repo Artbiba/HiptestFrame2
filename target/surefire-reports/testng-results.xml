@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-09-12T14:17:17Z" name="Surefire suite" finished-at="2019-09-12T14:17:46Z" duration-ms="29638">
+  <suite started-at="2019-09-12T14:37:46Z" name="Surefire suite" finished-at="2019-09-12T14:38:13Z" duration-ms="27260">
     <groups>
     </groups>
-    <test started-at="2019-09-12T14:17:17Z" name="Surefire test" finished-at="2019-09-12T14:17:46Z" duration-ms="29638">
+    <test started-at="2019-09-12T14:37:46Z" name="Surefire test" finished-at="2019-09-12T14:38:13Z" duration-ms="27260">
       <class name="TestClass">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestClass@6a74d228]" started-at="2019-09-12T14:17:39Z" name="setUp" finished-at="2019-09-12T14:17:42Z" duration-ms="3260" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestClass@6a74d228]" started-at="2019-09-12T14:38:05Z" name="setUp" finished-at="2019-09-12T14:38:09Z" duration-ms="3285" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test()[pri:0, instance:TestClass@6a74d228]" started-at="2019-09-12T14:17:42Z" name="test" finished-at="2019-09-12T14:17:46Z" duration-ms="3771" status="PASS">
+        <test-method signature="test()[pri:0, instance:TestClass@6a74d228]" started-at="2019-09-12T14:38:09Z" name="test" finished-at="2019-09-12T14:38:12Z" duration-ms="3650" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:TestClass@6a74d228]" started-at="2019-09-12T14:17:46Z" name="after" finished-at="2019-09-12T14:17:46Z" duration-ms="845" status="PASS">
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:TestClass@6a74d228]" started-at="2019-09-12T14:38:12Z" name="after" finished-at="2019-09-12T14:38:13Z" duration-ms="846" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,15 +28,15 @@
         </test-method> <!-- after -->
       </class> <!-- TestClass -->
       <class name="hiptest.SeleniumTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:17:17Z" name="setUp" finished-at="2019-09-12T14:17:22Z" duration-ms="5217" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:37:46Z" name="setUp" finished-at="2019-09-12T14:37:51Z" duration-ms="4685" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="findingASiteOnGoogle()[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:17:23Z" name="findingASiteOnGoogle" finished-at="2019-09-12T14:17:25Z" duration-ms="2280" status="PASS">
+        <test-method signature="findingASiteOnGoogle()[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:37:51Z" name="findingASiteOnGoogle" finished-at="2019-09-12T14:37:52Z" duration-ms="1749" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findingASiteOnGoogle -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:17:25Z" name="after" finished-at="2019-09-12T14:17:26Z" duration-ms="1177" status="PASS">
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:37:53Z" name="after" finished-at="2019-09-12T14:37:53Z" duration-ms="829" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,15 +47,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:17:26Z" name="setUp" finished-at="2019-09-12T14:17:30Z" duration-ms="3566" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:37:53Z" name="setUp" finished-at="2019-09-12T14:37:57Z" duration-ms="3393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginToAccountWithValidValues()[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:17:30Z" name="loginToAccountWithValidValues" finished-at="2019-09-12T14:17:30Z" duration-ms="7" status="PASS">
+        <test-method signature="loginToAccountWithValidValues()[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:37:57Z" name="loginToAccountWithValidValues" finished-at="2019-09-12T14:37:57Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToAccountWithValidValues -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:17:30Z" name="after" finished-at="2019-09-12T14:17:30Z" duration-ms="733" status="PASS">
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:37:57Z" name="after" finished-at="2019-09-12T14:37:57Z" duration-ms="611" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -66,15 +66,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:17:30Z" name="setUp" finished-at="2019-09-12T14:17:34Z" duration-ms="3293" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:37:57Z" name="setUp" finished-at="2019-09-12T14:38:01Z" duration-ms="3298" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="new2()[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:17:34Z" name="new2" finished-at="2019-09-12T14:17:34Z" duration-ms="1" status="PASS">
+        <test-method signature="new2()[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:38:01Z" name="new2" finished-at="2019-09-12T14:38:01Z" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- new2 -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:17:34Z" name="after" finished-at="2019-09-12T14:17:34Z" duration-ms="603" status="PASS">
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:38:01Z" name="after" finished-at="2019-09-12T14:38:01Z" duration-ms="603" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,15 +85,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:17:34Z" name="setUp" finished-at="2019-09-12T14:17:38Z" duration-ms="3235" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:38:01Z" name="setUp" finished-at="2019-09-12T14:38:05Z" duration-ms="3331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="newScenario()[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:17:38Z" name="newScenario" finished-at="2019-09-12T14:17:38Z" duration-ms="6" status="PASS">
+        <test-method signature="newScenario()[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:38:05Z" name="newScenario" finished-at="2019-09-12T14:38:05Z" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newScenario -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:17:38Z" name="after" finished-at="2019-09-12T14:17:39Z" duration-ms="927" status="PASS">
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:hiptest.SeleniumTest@36bc415e]" started-at="2019-09-12T14:38:05Z" name="after" finished-at="2019-09-12T14:38:05Z" duration-ms="677" status="PASS">
           <params>
             <param index="0">
               <value>

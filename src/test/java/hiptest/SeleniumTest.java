@@ -1,9 +1,17 @@
 package hiptest;
 
 import Core.BaseTest;
+import Utilities.Actionwords;
 import org.testng.annotations.*;
 
 public class SeleniumTest extends BaseTest {
+
+//    public Actionwords actionwords;
+//
+//    @BeforeMethod
+//    public void setUp() {
+//        actionwords = new Actionwords(driver);
+//    }
 
     @Test
     public void findingASiteOnGoogle() {

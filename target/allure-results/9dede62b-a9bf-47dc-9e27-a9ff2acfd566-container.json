@@ -1,1 +1,0 @@
-{"uuid":"9dede62b-a9bf-47dc-9e27-a9ff2acfd566","name":"Core.BaseTest.after","children":["5f4b983b-ed5d-442b-bef2-fdfa76697b7e"],"description":"","befores":[],"afters":[{"name":"after","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1568297854243,"stop":1568297854846}],"links":[],"start":1568297854243,"stop":1568297854846}
