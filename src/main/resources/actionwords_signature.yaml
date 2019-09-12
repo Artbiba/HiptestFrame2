@@ -1,0 +1,64 @@
+---
+- name: I open "http_google_com"
+  uid: 6d845fd7-6fe0-4c1d-aa4f-468e37d01c45
+  parameters:
+  - name: http_google_com
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I search for "Hiptest"
+  uid: 2716ed5f-5a04-48c2-aae2-a8d38c4923e1
+  parameters:
+  - name: Hiptest
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'a link to "Hiptest_Agile_test_management_tool_behavior_driven_development" '
+  uid: 454dbe87-b0d4-4027-aee9-73562747fb9d
+  parameters:
+  - name: Hiptest_Agile_test_management_tool_behavior_driven_development
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I open page
+  uid: 93e85e65-e6ff-4f9f-ac2b-cdc3637fc800
+  parameters:
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: click login button
+  uid: df4e74b0-56d0-4be9-bda9-154b3641ccbc
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I input valid email
+  uid: 05602c12-9efb-4964-9534-ba015494f10b
+  parameters:
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: input valid password
+  uid: 1d31ca36-80cf-44dd-a399-27c5578129b7
+  parameters:
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'the url contains '
+  uid: 9d5cd2ff-72e0-4796-8f6b-2d2e496ea549
+  parameters:
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: click on Login button
+  uid: 2e4593bf-e28f-42a6-b1a4-d98debed6772
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: go to page
+  uid: 23e7cf1f-55b4-4593-ac8e-9124889473bc
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'go to England '
+  uid: 9f21dbae-ea31-45d0-8a3d-406e31e44223
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: assert England url
+  uid: 5caf31da-1d8a-486d-902b-8ffaeae958e3
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Go to page2
+  uid: eb97b015-be2b-497f-95ca-154685fcffab
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Go to England2
+  uid: daf4eae4-cbaa-43db-877c-780c83105a9b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
