@@ -1,45 +1,184 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-09-12T15:55:35Z" name="Surefire suite" finished-at="2019-09-12T15:55:35Z" duration-ms="345">
+  <suite started-at="2019-09-12T16:58:16Z" name="Surefire suite" finished-at="2019-09-12T16:58:46Z" duration-ms="29693">
     <groups>
     </groups>
-    <test started-at="2019-09-12T15:55:35Z" name="Surefire test" finished-at="2019-09-12T15:55:35Z" duration-ms="345">
-      <class name="SeleniumTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTest@6cc0bcf6]" started-at="2019-09-12T15:55:35Z" name="setUp" finished-at="2019-09-12T15:55:35Z" duration-ms="17" status="PASS">
+    <test started-at="2019-09-12T16:58:16Z" name="Surefire test" finished-at="2019-09-12T16:58:46Z" duration-ms="29693">
+      <class name="hiptest.SeleniumTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:hiptest.SeleniumTest@5167268]" started-at="2019-09-12T16:58:16Z" name="setUp" finished-at="2019-09-12T16:58:21Z" duration-ms="4598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="findingASiteOnGoogleUid04058d8a519848d9a423df387c4bd368()[pri:0, instance:SeleniumTest@6cc0bcf6]" started-at="2019-09-12T15:55:35Z" name="findingASiteOnGoogleUid04058d8a519848d9a423df387c4bd368" finished-at="2019-09-12T15:55:35Z" duration-ms="99" status="PASS">
+        <test-method signature="findingASiteOnGoogleUid04058d8a519848d9a423df387c4bd368()[pri:0, instance:hiptest.SeleniumTest@5167268]" started-at="2019-09-12T16:58:21Z" name="findingASiteOnGoogleUid04058d8a519848d9a423df387c4bd368" finished-at="2019-09-12T16:58:33Z" duration-ms="12062" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for hiptest.Actionwords$1@231b35fb (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-DO7PUM8', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54961}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a64719cec0651bfab4082ab624515131]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for hiptest.Actionwords$1@231b35fb (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-DO7PUM8', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54961}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a64719cec0651bfab4082ab624515131
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+at hiptest.Actionwords.aLinkToHiptestAgileTestManagementToolBehaviorDrivenDevelopment(Actionwords.java:34)
+at hiptest.SeleniumTest.findingASiteOnGoogleUid04058d8a519848d9a423df387c4bd368(SeleniumTest.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:147)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findingASiteOnGoogleUid04058d8a519848d9a423df387c4bd368 -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTest@6cc0bcf6]" started-at="2019-09-12T15:55:35Z" name="setUp" finished-at="2019-09-12T15:55:35Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:hiptest.SeleniumTest@5167268]" started-at="2019-09-12T16:58:33Z" name="close" finished-at="2019-09-12T16:58:34Z" duration-ms="671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:hiptest.SeleniumTest@5167268]" started-at="2019-09-12T16:58:34Z" name="setUp" finished-at="2019-09-12T16:58:37Z" duration-ms="3323" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginToAccountWithValidValuesUid5585c7a8d44c48a289b88774b5f34269()[pri:0, instance:SeleniumTest@6cc0bcf6]" started-at="2019-09-12T15:55:35Z" name="loginToAccountWithValidValuesUid5585c7a8d44c48a289b88774b5f34269" finished-at="2019-09-12T15:55:35Z" duration-ms="3" status="PASS">
+        <test-method signature="loginToAccountWithValidValuesUid5585c7a8d44c48a289b88774b5f34269()[pri:0, instance:hiptest.SeleniumTest@5167268]" started-at="2019-09-12T16:58:37Z" name="loginToAccountWithValidValuesUid5585c7a8d44c48a289b88774b5f34269" finished-at="2019-09-12T16:58:37Z" duration-ms="31" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-DO7PUM8', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55002}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 90c84a14481041c985b69614e0546a1c
+*** Element info: {Using=xpath, value=//a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-DO7PUM8', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55002}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 90c84a14481041c985b69614e0546a1c
+*** Element info: {Using=xpath, value=//a}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at hiptest.Actionwords.iInputValidEmail(Actionwords.java:50)
+at hiptest.SeleniumTest.loginToAccountWithValidValuesUid5585c7a8d44c48a289b88774b5f34269(SeleniumTest.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:147)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToAccountWithValidValuesUid5585c7a8d44c48a289b88774b5f34269 -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTest@6cc0bcf6]" started-at="2019-09-12T15:55:35Z" name="setUp" finished-at="2019-09-12T15:55:35Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:hiptest.SeleniumTest@5167268]" started-at="2019-09-12T16:58:37Z" name="close" finished-at="2019-09-12T16:58:38Z" duration-ms="669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:hiptest.SeleniumTest@5167268]" started-at="2019-09-12T16:58:38Z" name="setUp" finished-at="2019-09-12T16:58:41Z" duration-ms="3354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="new2Uid6009eb5bc9c14e6a8029ff79a0ff2532()[pri:0, instance:SeleniumTest@6cc0bcf6]" started-at="2019-09-12T15:55:35Z" name="new2Uid6009eb5bc9c14e6a8029ff79a0ff2532" finished-at="2019-09-12T15:55:35Z" duration-ms="4" status="PASS">
+        <test-method signature="new2Uid6009eb5bc9c14e6a8029ff79a0ff2532()[pri:0, instance:hiptest.SeleniumTest@5167268]" started-at="2019-09-12T16:58:41Z" name="new2Uid6009eb5bc9c14e6a8029ff79a0ff2532" finished-at="2019-09-12T16:58:41Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- new2Uid6009eb5bc9c14e6a8029ff79a0ff2532 -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTest@6cc0bcf6]" started-at="2019-09-12T15:55:35Z" name="setUp" finished-at="2019-09-12T15:55:35Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:hiptest.SeleniumTest@5167268]" started-at="2019-09-12T16:58:41Z" name="close" finished-at="2019-09-12T16:58:42Z" duration-ms="685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:hiptest.SeleniumTest@5167268]" started-at="2019-09-12T16:58:42Z" name="setUp" finished-at="2019-09-12T16:58:45Z" duration-ms="3388" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="newScenarioUide04443b80bf8487e93201538a1d3c199()[pri:0, instance:SeleniumTest@6cc0bcf6]" started-at="2019-09-12T15:55:35Z" name="newScenarioUide04443b80bf8487e93201538a1d3c199" finished-at="2019-09-12T15:55:35Z" duration-ms="2" status="PASS">
+        <test-method signature="newScenarioUide04443b80bf8487e93201538a1d3c199()[pri:0, instance:hiptest.SeleniumTest@5167268]" started-at="2019-09-12T16:58:45Z" name="newScenarioUide04443b80bf8487e93201538a1d3c199" finished-at="2019-09-12T16:58:45Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newScenarioUide04443b80bf8487e93201538a1d3c199 -->
-      </class> <!-- SeleniumTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:hiptest.SeleniumTest@5167268]" started-at="2019-09-12T16:58:45Z" name="close" finished-at="2019-09-12T16:58:46Z" duration-ms="671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- hiptest.SeleniumTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
-              <span class="suite-name border-passed">Surefire suite</span>
+              <span class="suite-name border-failed">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">4 methods, 2 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="hiptest.SeleniumTest" class="method navigator-link" hash-for-method="findingASiteOnGoogleUid04058d8a519848d9a423df387c4bd368">findingASiteOnGoogleUid04058d8a519848d9a423df387c4bd368</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="hiptest.SeleniumTest" class="method navigator-link" hash-for-method="loginToAccountWithValidValuesUid5585c7a8d44c48a289b88774b5f34269">loginToAccountWithValidValuesUid5585c7a8d44c48a289b88774b5f34269</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,22 +121,12 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="SeleniumTest" class="method navigator-link" hash-for-method="findingASiteOnGoogleUid04058d8a519848d9a423df387c4bd368">findingASiteOnGoogleUid04058d8a519848d9a423df387c4bd368</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="hiptest.SeleniumTest" class="method navigator-link" hash-for-method="new2Uid6009eb5bc9c14e6a8029ff79a0ff2532">new2Uid6009eb5bc9c14e6a8029ff79a0ff2532</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="SeleniumTest" class="method navigator-link" hash-for-method="loginToAccountWithValidValuesUid5585c7a8d44c48a289b88774b5f34269">loginToAccountWithValidValuesUid5585c7a8d44c48a289b88774b5f34269</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="SeleniumTest" class="method navigator-link" hash-for-method="new2Uid6009eb5bc9c14e6a8029ff79a0ff2532">new2Uid6009eb5bc9c14e6a8029ff79a0ff2532</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="SeleniumTest" class="method navigator-link" hash-for-method="newScenarioUide04443b80bf8487e93201538a1d3c199">newScenarioUide04443b80bf8487e93201538a1d3c199</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="hiptest.SeleniumTest" class="method navigator-link" hash-for-method="newScenarioUide04443b80bf8487e93201538a1d3c199">newScenarioUide04443b80bf8487e93201538a1d3c199</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -132,10 +141,10 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
-          <div class="suite-Surefire_suite-class-passed">
+          <div class="suite-Surefire_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">SeleniumTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">hiptest.SeleniumTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -143,6 +152,18 @@
                   <a name="findingASiteOnGoogleUid04058d8a519848d9a423df387c4bd368">
                   </a> <!-- findingASiteOnGoogleUid04058d8a519848d9a423df387c4bd368 -->
                   <span class="method-name">findingASiteOnGoogleUid04058d8a519848d9a423df387c4bd368</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for hiptest.Actionwords$1@231b35fb (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-DO7PUM8&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54961}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a64719cec0651bfab4082ab624515131
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+	at hiptest.Actionwords.aLinkToHiptestAgileTestManagementToolBehaviorDrivenDevelopment(Actionwords.java:34)
+	at hiptest.SeleniumTest.findingASiteOnGoogleUid04058d8a519848d9a423df387c4bd368(SeleniumTest.java:21)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -150,8 +171,39 @@
                   <a name="loginToAccountWithValidValuesUid5585c7a8d44c48a289b88774b5f34269">
                   </a> <!-- loginToAccountWithValidValuesUid5585c7a8d44c48a289b88774b5f34269 -->
                   <span class="method-name">loginToAccountWithValidValuesUid5585c7a8d44c48a289b88774b5f34269</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a&quot;}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-DO7PUM8&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55002}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 90c84a14481041c985b69614e0546a1c
+*** Element info: {Using=xpath, value=//a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at hiptest.Actionwords.iInputValidEmail(Actionwords.java:50)
+	at hiptest.SeleniumTest.loginToAccountWithValidValuesUid5585c7a8d44c48a289b88774b5f34269(SeleniumTest.java:31)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">hiptest.SeleniumTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="new2Uid6009eb5bc9c14e6a8029ff79a0ff2532">
@@ -179,7 +231,8 @@
 &lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;SeleniumTest&quot;/&gt;
+      &lt;class name=&quot;hiptest.Actionwords&quot;/&gt;
+      &lt;class name=&quot;hiptest.SeleniumTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Surefire test --&gt;
 &lt;/suite&gt; &lt;!-- Surefire suite --&gt;
@@ -193,7 +246,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (1 class)</span>
+                <span class="test-name">Surefire test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -222,25 +275,25 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'findingASiteOnGoogleUid04058d8a519848d9a423df387c4bd368')
-data.setCell(0, 2, 'SeleniumTest')
-data.setCell(0, 3, 99);
+data.setCell(0, 2, 'hiptest.SeleniumTest')
+data.setCell(0, 3, 12062);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'new2Uid6009eb5bc9c14e6a8029ff79a0ff2532')
-data.setCell(1, 2, 'SeleniumTest')
-data.setCell(1, 3, 4);
+data.setCell(1, 1, 'loginToAccountWithValidValuesUid5585c7a8d44c48a289b88774b5f34269')
+data.setCell(1, 2, 'hiptest.SeleniumTest')
+data.setCell(1, 3, 31);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'loginToAccountWithValidValuesUid5585c7a8d44c48a289b88774b5f34269')
-data.setCell(2, 2, 'SeleniumTest')
-data.setCell(2, 3, 3);
+data.setCell(2, 1, 'newScenarioUide04443b80bf8487e93201538a1d3c199')
+data.setCell(2, 2, 'hiptest.SeleniumTest')
+data.setCell(2, 3, 0);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'newScenarioUide04443b80bf8487e93201538a1d3c199')
-data.setCell(3, 2, 'SeleniumTest')
-data.setCell(3, 3, 2);
+data.setCell(3, 1, 'new2Uid6009eb5bc9c14e6a8029ff79a0ff2532')
+data.setCell(3, 2, 'hiptest.SeleniumTest')
+data.setCell(3, 3, 0);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 108 ms</span>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -266,39 +319,59 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">SeleniumTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">hiptest.SeleniumTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">findingASiteOnGoogleUid04058d8a519848d9a423df387c4bd368</span>
-                <span class="method-start">135 ms</span>
+                <span class="method-start">4724 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">16817 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">249 ms</span>
+                <span class="method-start">17493 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">loginToAccountWithValidValuesUid5585c7a8d44c48a289b88774b5f34269</span>
-                <span class="method-start">254 ms</span>
+                <span class="method-start">20816 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">20863 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">272 ms</span>
+                <span class="method-start">21536 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">new2Uid6009eb5bc9c14e6a8029ff79a0ff2532</span>
-                <span class="method-start">279 ms</span>
+                <span class="method-start">24890 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">24890 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">289 ms</span>
+                <span class="method-start">25579 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">newScenarioUide04443b80bf8487e93201538a1d3c199</span>
-                <span class="method-start">294 ms</span>
+                <span class="method-start">28967 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">28983 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
