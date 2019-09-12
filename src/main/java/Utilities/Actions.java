@@ -17,6 +17,10 @@ public class Actions extends BaseClass {
         super(driver);
     }
 
+    public void print(){
+        System.out.println("asd");
+    }
+
     @Step("{step}")
     public void inputData(String step, WebElement element, String data) {
         try {

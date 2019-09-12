@@ -1,6 +1,7 @@
 package Core;
 
 import Utilities.Actions;
+import Utilities.Actionwords;
 import Utilities.Asserts;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import io.qameta.allure.Attachment;
@@ -22,6 +23,7 @@ public class BaseTest {
 
     public Asserts asserts;
     public Actions actions;
+    public Actionwords actionwords;
 
     @BeforeMethod
     @Step("Preconditions")
@@ -46,6 +48,7 @@ public class BaseTest {
 
         asserts = new Asserts(driver);
         actions = new Actions(driver);
+        actionwords = new Actionwords(driver);
     }
 
     @Attachment(value = "Page screenshot", type = "image/png")
