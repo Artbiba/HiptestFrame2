@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-09-12T13:06:22Z" name="Surefire suite" finished-at="2019-09-12T13:06:49Z" duration-ms="27638">
+  <suite started-at="2019-09-12T13:24:50Z" name="Surefire suite" finished-at="2019-09-12T13:25:25Z" duration-ms="34734">
     <groups>
     </groups>
-    <test started-at="2019-09-12T13:06:22Z" name="Surefire test" finished-at="2019-09-12T13:06:49Z" duration-ms="27638">
+    <test started-at="2019-09-12T13:24:50Z" name="Surefire test" finished-at="2019-09-12T13:25:25Z" duration-ms="34734">
       <class name="TestClass">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestClass@301d8120]" started-at="2019-09-12T13:06:41Z" name="setUp" finished-at="2019-09-12T13:06:45Z" duration-ms="3266" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestClass@6d367020]" started-at="2019-09-12T13:25:12Z" name="setUp" finished-at="2019-09-12T13:25:15Z" duration-ms="3337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test()[pri:0, instance:TestClass@301d8120]" started-at="2019-09-12T13:06:45Z" name="test" finished-at="2019-09-12T13:06:48Z" duration-ms="3901" status="PASS">
+        <test-method signature="test()[pri:0, instance:TestClass@6d367020]" started-at="2019-09-12T13:25:15Z" name="test" finished-at="2019-09-12T13:25:24Z" duration-ms="8977" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:TestClass@301d8120]" started-at="2019-09-12T13:06:48Z" name="after" finished-at="2019-09-12T13:06:49Z" duration-ms="837" status="PASS">
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:TestClass@6d367020]" started-at="2019-09-12T13:25:24Z" name="after" finished-at="2019-09-12T13:25:25Z" duration-ms="966" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test status=SUCCESS method=TestClass.test()[pri:0, instance:TestClass@301d8120] output={null}]]]>
+                <![CDATA[[TestResult name=test status=SUCCESS method=TestClass.test()[pri:0, instance:TestClass@6d367020] output={null}]]]>
               </value>
             </param>
           </params>
@@ -28,76 +28,76 @@
         </test-method> <!-- after -->
       </class> <!-- TestClass -->
       <class name="SeleniumTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTest@2adddc06]" started-at="2019-09-12T13:06:22Z" name="setUp" finished-at="2019-09-12T13:06:26Z" duration-ms="4734" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTest@301d8120]" started-at="2019-09-12T13:24:50Z" name="setUp" finished-at="2019-09-12T13:24:55Z" duration-ms="4849" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="findingASiteOnGoogle()[pri:0, instance:SeleniumTest@2adddc06]" started-at="2019-09-12T13:06:27Z" name="findingASiteOnGoogle" finished-at="2019-09-12T13:06:28Z" duration-ms="1847" status="PASS">
+        <test-method signature="findingASiteOnGoogle()[pri:0, instance:SeleniumTest@301d8120]" started-at="2019-09-12T13:24:55Z" name="findingASiteOnGoogle" finished-at="2019-09-12T13:24:58Z" duration-ms="2740" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findingASiteOnGoogle -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:SeleniumTest@2adddc06]" started-at="2019-09-12T13:06:28Z" name="after" finished-at="2019-09-12T13:06:29Z" duration-ms="796" status="PASS">
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:SeleniumTest@301d8120]" started-at="2019-09-12T13:24:58Z" name="after" finished-at="2019-09-12T13:24:59Z" duration-ms="670" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=findingASiteOnGoogle status=SUCCESS method=SeleniumTest.findingASiteOnGoogle()[pri:0, instance:SeleniumTest@2adddc06] output={null}]]]>
+                <![CDATA[[TestResult name=findingASiteOnGoogle status=SUCCESS method=SeleniumTest.findingASiteOnGoogle()[pri:0, instance:SeleniumTest@301d8120] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTest@2adddc06]" started-at="2019-09-12T13:06:29Z" name="setUp" finished-at="2019-09-12T13:06:33Z" duration-ms="3343" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTest@301d8120]" started-at="2019-09-12T13:24:59Z" name="setUp" finished-at="2019-09-12T13:25:02Z" duration-ms="3341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginToAccountWithValidValues()[pri:0, instance:SeleniumTest@2adddc06]" started-at="2019-09-12T13:06:33Z" name="loginToAccountWithValidValues" finished-at="2019-09-12T13:06:33Z" duration-ms="2" status="PASS">
+        <test-method signature="loginToAccountWithValidValues()[pri:0, instance:SeleniumTest@301d8120]" started-at="2019-09-12T13:25:02Z" name="loginToAccountWithValidValues" finished-at="2019-09-12T13:25:02Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToAccountWithValidValues -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:SeleniumTest@2adddc06]" started-at="2019-09-12T13:06:33Z" name="after" finished-at="2019-09-12T13:06:33Z" duration-ms="674" status="PASS">
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:SeleniumTest@301d8120]" started-at="2019-09-12T13:25:02Z" name="after" finished-at="2019-09-12T13:25:03Z" duration-ms="667" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginToAccountWithValidValues status=SUCCESS method=SeleniumTest.loginToAccountWithValidValues()[pri:0, instance:SeleniumTest@2adddc06] output={null}]]]>
+                <![CDATA[[TestResult name=loginToAccountWithValidValues status=SUCCESS method=SeleniumTest.loginToAccountWithValidValues()[pri:0, instance:SeleniumTest@301d8120] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTest@2adddc06]" started-at="2019-09-12T13:06:33Z" name="setUp" finished-at="2019-09-12T13:06:37Z" duration-ms="3352" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTest@301d8120]" started-at="2019-09-12T13:25:03Z" name="setUp" finished-at="2019-09-12T13:25:06Z" duration-ms="3626" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="new2()[pri:0, instance:SeleniumTest@2adddc06]" started-at="2019-09-12T13:06:37Z" name="new2" finished-at="2019-09-12T13:06:37Z" duration-ms="2" status="PASS">
+        <test-method signature="new2()[pri:0, instance:SeleniumTest@301d8120]" started-at="2019-09-12T13:25:06Z" name="new2" finished-at="2019-09-12T13:25:06Z" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- new2 -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:SeleniumTest@2adddc06]" started-at="2019-09-12T13:06:37Z" name="after" finished-at="2019-09-12T13:06:37Z" duration-ms="645" status="PASS">
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:SeleniumTest@301d8120]" started-at="2019-09-12T13:25:06Z" name="after" finished-at="2019-09-12T13:25:07Z" duration-ms="683" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=new2 status=SUCCESS method=SeleniumTest.new2()[pri:0, instance:SeleniumTest@2adddc06] output={null}]]]>
+                <![CDATA[[TestResult name=new2 status=SUCCESS method=SeleniumTest.new2()[pri:0, instance:SeleniumTest@301d8120] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTest@2adddc06]" started-at="2019-09-12T13:06:37Z" name="setUp" finished-at="2019-09-12T13:06:41Z" duration-ms="3283" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTest@301d8120]" started-at="2019-09-12T13:25:07Z" name="setUp" finished-at="2019-09-12T13:25:11Z" duration-ms="3394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="newScenario()[pri:0, instance:SeleniumTest@2adddc06]" started-at="2019-09-12T13:06:41Z" name="newScenario" finished-at="2019-09-12T13:06:41Z" duration-ms="2" status="PASS">
+        <test-method signature="newScenario()[pri:0, instance:SeleniumTest@301d8120]" started-at="2019-09-12T13:25:11Z" name="newScenario" finished-at="2019-09-12T13:25:11Z" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newScenario -->
-        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:SeleniumTest@2adddc06]" started-at="2019-09-12T13:06:41Z" name="after" finished-at="2019-09-12T13:06:41Z" duration-ms="667" status="PASS">
+        <test-method is-config="true" signature="after(org.testng.ITestResult)[pri:0, instance:SeleniumTest@301d8120]" started-at="2019-09-12T13:25:11Z" name="after" finished-at="2019-09-12T13:25:12Z" duration-ms="1030" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=newScenario status=SUCCESS method=SeleniumTest.newScenario()[pri:0, instance:SeleniumTest@2adddc06] output={null}]]]>
+                <![CDATA[[TestResult name=newScenario status=SUCCESS method=SeleniumTest.newScenario()[pri:0, instance:SeleniumTest@301d8120] output={null}]]]>
               </value>
             </param>
           </params>

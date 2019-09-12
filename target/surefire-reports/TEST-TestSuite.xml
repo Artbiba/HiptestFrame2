@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="28.935" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="36.075" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="12.0.2+10"/>
     <property name="sun.boot.library.path" value="D:\job setups\jdk-12.0.2\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\job setups\HiptestFrame2"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\HiptestFrame2.0"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\job setups\HiptestFrame2"/>
+    <property name="user.dir" value="E:\HiptestFrame2.0"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="java.runtime.version" value="12.0.2+10"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
@@ -62,9 +62,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="findingASiteOnGoogle" classname="SeleniumTest" time="1.794"/>
-  <testcase name="loginToAccountWithValidValues" classname="SeleniumTest" time="0.006"/>
-  <testcase name="new2" classname="SeleniumTest" time="0.005"/>
-  <testcase name="newScenario" classname="SeleniumTest" time="0.007"/>
-  <testcase name="test" classname="TestClass" time="3.91"/>
+  <testcase name="findingASiteOnGoogle" classname="SeleniumTest" time="2.666"/>
+  <testcase name="loginToAccountWithValidValues" classname="SeleniumTest" time="0.01"/>
+  <testcase name="new2" classname="SeleniumTest" time="0.006"/>
+  <testcase name="newScenario" classname="SeleniumTest" time="0.016"/>
+  <testcase name="test" classname="TestClass" time="8.99"/>
 </testsuite>
