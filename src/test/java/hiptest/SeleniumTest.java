@@ -1,3 +1,5 @@
+package hiptest;
+
 import Core.BaseTest;
 import Utilities.Actionwords;
 import org.testng.annotations.*;
