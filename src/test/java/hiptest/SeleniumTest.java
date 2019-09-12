@@ -1,4 +1,4 @@
-
+package hiptest;
 
 import org.testng.annotations.*;
 
@@ -12,7 +12,7 @@ public class SeleniumTest {
     }
 
     @Test
-    public void findingASiteOnGoogleUid04058d8a519848d9a423df387c4bd368() {
+    public void findingASiteOnGoogle() {
         // Given I open "http://google.com"
         actionwords.iOpenHttpGoogleCom("http://google.com");
         // When I search for "Hiptest"
@@ -22,7 +22,7 @@ public class SeleniumTest {
     }
 
     @Test
-    public void loginToAccountWithValidValuesUid5585c7a8d44c48a289b88774b5f34269() {
+    public void loginToAccountWithValidValues() {
         // Given I open page
         actionwords.iOpenPage("https://test.loadedreports.com/");
         // And click login button
@@ -38,7 +38,7 @@ public class SeleniumTest {
     }
 
     @Test
-    public void newScenarioUide04443b80bf8487e93201538a1d3c199() {
+    public void newScenario() {
         // When go to page
         actionwords.goToPage();
         // When go to England
@@ -48,7 +48,7 @@ public class SeleniumTest {
     }
 
     @Test
-    public void new2Uid6009eb5bc9c14e6a8029ff79a0ff2532() {
+    public void new2() {
         actionwords.goToPage2();
         actionwords.goToEngland2();
     }
