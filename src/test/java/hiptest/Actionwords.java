@@ -47,7 +47,7 @@ public class Actionwords {
     }
 
     public void iInputValidEmail(String freeText) {
-       driver.findElement(By.xpath("//a"));
+       //driver.findElement(By.xpath("//a"));
     }
 
     public void inputValidPassword(String freeText) {
