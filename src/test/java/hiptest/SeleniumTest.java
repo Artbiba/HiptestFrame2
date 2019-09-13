@@ -18,7 +18,7 @@ public class SeleniumTest {
         // When I search for "Hiptest"
         actionwords.iSearchForHiptest("Hiptest");
         // Then a link to "Hiptest: Agile test management tool & behavior driven development"
-        actionwords.aLinkToHiptestAgileTestManagementToolBehaviorDrivenDevelopment("Hiptest: Agile test management tool & behavior driven development");
+        actionwords.aLinkToHiptestAgileTestManagementToolBehaviorDrivenDevelopment("hiptest");
     }
 
     @Test
